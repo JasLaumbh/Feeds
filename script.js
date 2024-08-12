@@ -75,6 +75,6 @@ const init = () => {
 };
 
 window.onload = () => {
-  requestURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=general&apiKey=${apiKey}`;
+  requestURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=general&apiKey="f78c0eca3ad645879961a26afb568826"}`;
   init();
 };
