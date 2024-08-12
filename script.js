@@ -54,7 +54,7 @@ const selectCategory = (e, category) => {
   options.forEach((element) => {
     element.classList.remove("active");
   });
-  requestURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${apiKey}`;
+  requestURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey="f78c0eca3ad645879961a26afb568826"`;
   e.target.classList.add("active");
   getNews();
 };
